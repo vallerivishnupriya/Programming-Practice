@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test-parameter]">
+  <parameter name="csvfile" value="src/main/resources/datafiles/accounts.csv"/>
+  <test name="Logic Test Suite(failed)">
+    <parameter name="csvfile" value="src/main/resources/datafiles/accounts.csv"/>
+    <classes>
+      <class name="com.wbl.login.test.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="shutdown"/>
+        </methods>
+      </class> <!-- com.wbl.login.test.LoginTest -->
+    </classes>
+  </test> <!-- Logic Test Suite(failed) -->
+</suite> <!-- Failed suite [test-parameter] -->

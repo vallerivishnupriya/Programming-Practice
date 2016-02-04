@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test-parameter" duration-ms="29103" started-at="2016-02-04T17:25:51Z" finished-at="2016-02-04T17:26:20Z">
+    <groups>
+    </groups>
+    <test name="Logic Test Suite" duration-ms="29103" started-at="2016-02-04T17:25:51Z" finished-at="2016-02-04T17:26:20Z">
+      <class name="com.wbl.login.test.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.wbl.login.test.LoginTest@3e5052b9]" name="setup" is-config="true" duration-ms="16" started-at="2016-02-04T09:25:51Z" finished-at="2016-02-04T09:25:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/main/resources/datafiles/accounts.csv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(com.wbl.login.dataobjects.DataSheet)[pri:0, instance:com.wbl.login.test.LoginTest@3e5052b9]" name="loginTest" duration-ms="28098" started-at="2016-02-04T09:25:51Z" data-provider="accountsDetails" finished-at="2016-02-04T09:26:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.wbl.login.dataobjects.DataSheet@4aebb34e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.wbl.login.test.LoginTest@3e5052b9]" name="shutdown" is-config="true" duration-ms="963" started-at="2016-02-04T09:26:19Z" finished-at="2016-02-04T09:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- com.wbl.login.test.LoginTest -->
+    </test> <!-- Logic Test Suite -->
+  </suite> <!-- test-parameter -->
+</testng-results>

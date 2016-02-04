@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="test-parameter">
+
+	<test name="Logic Test Suite">
+		<parameter name="csvfile" value="src/main/resources/datafiles/accounts.csv" />
+		<classes>
+			<class name="com.wbl.login.test.LoginTest" />
+		</classes>
+	</test>
+
+</suite>
